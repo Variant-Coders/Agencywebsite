@@ -61,37 +61,34 @@ a:hover{
 .fir-container{
     height: 100%;
     width: 100%;
+    padding-left: 15%;
     display: flex;
     flex-direction:column;
-    justify-content:center;
-    padding-left: 15%;
     margin-bottom: 20px;
+    justify-content: center;
 }
 .hello{
     font-size:8rem;
     padding-left: 0;
 }
+.btn{
+    background-color: #525252;
+    padding: 10px;
+    margin-top: 20px;
+    font-size:1.5rem;
+    border-radius:5px;
+}
+.btn:hover{
+    background-color:#393939;
+    transition: 0.3s ease;
+}
+
 .devs{
     font-size: 4rem;
 }
 .manage{
     font-size: 1.2rem;
-}
-.btn{
-    margin-top: 20px;
-    height: 50px;
-    width:150px ;
-    border-radius:7px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    text-align:center;
-    background-color:#595959;
-}
-.btn:hover{
-    background-color: #363636;
-    transition: 0.2s ease;
-
+    margin-bottom: 30px;
 }
 a{
     text-decoration:none;
