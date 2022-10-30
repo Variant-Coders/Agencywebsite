@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Signika Negative';
+    box-sizing:border-box
+}
+html{
+scroll-behavior: smooth;
+}
+.logo{
+    font-size:2rem;
+    font-family: Signika Negative;
+}
+header{
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+nav{
+    margin: auto;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+ul li{
+    display: inline;
+}
+li{
+    padding-right: 15px;
+}
+li a{
+    text-decoration:none;
+    color:gray;
+}
+a:hover{
+    color:#000000;
+}
+@media screen and (max-width:700px){
+    nav{
+        justify-content: center
+    }
+    .nav-links{
+        display:none;
+    }
+}
+
+.first-page{
+    height: calc(100vh - 5rem);
+    margin-top: 5rem;
+    background-color: gray;
+
+}
+.fir-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left: 15%;
+    margin-bottom: 20px;
+}
+.hello{
+    font-size:8rem;
+    padding-left: 0;
+}
+.devs{
+    font-size: 4rem;
+}
+.manage{
+    font-size: 1.2rem;
+}
+.btn{
+    margin-top: 20px;
+    height: 50px;
+    width:150px ;
+    border-radius:7px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    background-color:#595959;
+}
+.btn:hover{
+    background-color: #363636;
+    transition: 0.2s ease;
+
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.second-page{
+    padding-top: 5rem;
+    min-height: 99vh;
+}
+.heading{
+    font-size:4rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+.team{
+    width: 100%;
+    padding: 3rem;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    justify-content: center;
+    justify-items: center;
+}
+.card{
+    width: 300px;
+    height: 450px;
+    border-radius:7px;
+    background-color: #EAEAEA;
+    margin: 30px 0px;
+    padding: 1.5rem;
+    flex-direction:column;
+    text-align:center;
+}
+.card img{
+    height: 250px;
+    width: 240px;
+    border-radius:5px;
+    padding-bottom: 20px;
+}
+.name{
+    font-size:2rem;
+    padding-bottom: 30px;
+
+}
+.card p{
+    font-weight:300;
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #000000;
+    color: antiquewhite;
+    font-weight: normal;
+}
+.third-page{
+    width: 100%;
+    min-height:100vh;
+    padding-top: 5rem;
+}
+.pro{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.projects img{
+    height: 400px;
+    width: 600px;
+}
